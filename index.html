@@ -1,0 +1,56 @@
+<!DOCTYPE HTML>
+<html>
+
+<head>
+<!-- title for the tab  -->
+    <title>
+        Astro Calculator
+    </title>
+    <!-- refrence to css code -->
+    <link rel="stylesheet" href="index.css" type="text/css" />
+</head>
+
+<body>
+    <header>
+        <h2>Astro</h2>
+        <h1>
+        <!-- change colors or letters for weight -->
+ <font color=#0057e7>W</font>
+ <font color=#d62d20>E</font>
+ <font color=#ffa700>I</font>
+ <font color=#0057e7>G</font>
+ <font color=#008744>H</font>
+ <font color=#d62d20>T</font>
+
+</h1>
+        <h2>Calculator</h2>
+    </header>
+    <section>
+        <form>
+            Your Weight
+            <input type="text" id="weight" class="myText">
+            <select id="gravity">
+            <!-- planet options and their values -->
+                <option value="27.9">sun</option>
+                <option value=".377">mercury</option>
+                <option value=".9032">venus</option>
+                <option value="1">earth</option>
+                <option value=".1655">moon</option>
+                <option value=".3895">mars</option>
+                <option value="2.640">jupiter</option>
+                <option value="1.139">saturn</option>
+                <option value=".917">uranus</option>
+                <option value="1.148">neptune</option>
+                <option value=".06">pluto</option>
+            </select>
+            <!-- calculate button -->
+            <button type="button" onclick="calculator()">calculate</button>
+        </form>
+    </section>
+    <p id="results"></p>
+    <!-- refrence to javascript code -->
+    <script src="index.js"></script>
+</body>
+
+</html>
+
